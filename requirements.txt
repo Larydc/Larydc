@@ -1,0 +1,9 @@
+# Requirements for Labeled Homomorphic Encryption with Paillier
+# 
+# Based on: "Labeled Homomorphic Encryption" by Barbosa, Catalano & Fiore (2017)
+
+# Core cryptographic library
+phe>=1.5.0        # Python Paillier Homomorphic Encryption
+
+# Optional: For enhanced performance
+# gmpy2>=2.1.0    # Faster arithmetic operations (requires GMP library)
